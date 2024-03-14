@@ -7,3 +7,9 @@ acessorios.push('tornozeleira');
 acessorios.push('tiara');
 acessorios.push('luva');
 console.log(acessorios);
+
+//Metodo 2: pop 
+//pop: remove o ultimo elemento 
+let timeFutebol = ['palmeiras', 'ponte preta', 'real madrid', 'corinthians'];
+timeFutebol.pop();
+console.log(timeFutebol);
