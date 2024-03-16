@@ -19,3 +19,8 @@ console.log(timeFutebol);
 let frutas = ['morango', 'uva', 'banana'];
 frutas.fill('goiaba');
 console.log(frutas);
+//segundo exemplo com fill
+let doces = ['brigadeiro', 'paçoca', 'beijinho'];
+doces.fill('cocada');
+console.log(doces);
+
