@@ -57,3 +57,16 @@ let roupas = ['blusa', 'moletom', 'calça'];
 roupas.shift();
 console.log(roupas);
 
+//quinto metodo: unshift
+//unshift: adiciona ao inicio da array
+let sapatos = ['salto', 'tenis', 'chinelo'];
+sapatos.unshift();
+let x = sapatos.unshift('sapatilha')
+console.log(x);
+
+//segundo exemplo: unshift
+let casa = ['quarto', 'sala', 'cozinha'];
+casa.unshift();
+let y = casa.unshift('banheiro');
+console.log(y);
+
