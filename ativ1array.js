@@ -99,3 +99,14 @@ console.log(concat);
 console.log(verduras);
 console.log(legumes);
 
+//oitavo metodo: reverse
+//inverte as posições 
+let celular = ['iphone', 'samsung', 'motorola'];
+celular.reverse();
+console.log (celular);
+
+//segundo exemplo: reverse
+let redes = ['instagram', 'whatsapp', 'facebook'];
+redes.reverse();
+console.log(redes);
+
