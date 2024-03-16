@@ -66,7 +66,19 @@ console.log(x);
 
 //segundo exemplo: unshift
 let casa = ['quarto', 'sala', 'cozinha'];
+
 casa.unshift();
 let y = casa.unshift('banheiro');
 console.log(y);
+
+//sexto metodo:splice
+//splice: adiciona e apaga
+let carro = ['uno', 'ferrari', 'sandero'];
+carro.splice(1, 1, 'onix');
+console.log(carro);
+
+//segundo exemplo: splice
+let cozinha = ['garfo', 'faca', 'comida'];
+cozinha.splice(1, 1, 'copo');
+console.log(cozinha);
 
