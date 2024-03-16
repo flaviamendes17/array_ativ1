@@ -46,3 +46,14 @@ let escola = ['caderno', 'mochila', 'estojo'];
 escola.sort();
 console.log(escola); //ordenou para: caderno,estojo,mochila
 
+//quarto metodo: shift
+//shift:remove o primeiro elemento 
+let aparelhos = ['computador', 'celular', 'fone'];
+aparelhos.shift();
+console.log(aparelhos);
+
+//segundo exemplo: shift 
+let roupas = ['blusa', 'moletom', 'calça'];
+roupas.shift();
+console.log(roupas);
+
