@@ -82,3 +82,20 @@ let cozinha = ['garfo', 'faca', 'comida'];
 cozinha.splice(1, 1, 'copo');
 console.log(cozinha);
 
+//sétimo metodo: concat
+//concat: une um ou mais arrays
+let primeiro = [1, 2, 3];
+let segundo = [4, 5, 6];
+let concatenado = primeiro.concat(segundo);
+console.log(concatenado);
+console.log(primeiro);
+console.log(segundo);
+
+//segundo exemplo: concat
+let verduras = ['brocolis', 'espinafre'];
+let legumes = ['berinjela', 'abobora'];
+let concat = verduras.concat(legumes);
+console.log(concat);
+console.log(verduras);
+console.log(legumes);
+
