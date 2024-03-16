@@ -24,3 +24,14 @@ let doces = ['brigadeiro', 'paçoca', 'beijinho'];
 doces.fill('cocada');
 console.log(doces);
 
+//segundo metodo: includes() - verifica a presença de um elemento
+let nome = ['flavia', 'fernanda', 'maitê'];
+
+let x = nome.includes('flavia')
+console.log(x); //true
+
+//segundo exemplo: includes 
+let cor = ['amarelo', 'rosa', 'laranja'];
+let y = cor.includes('azul')
+console.log(y); //false 
+
