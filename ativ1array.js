@@ -35,3 +35,14 @@ let cor = ['amarelo', 'rosa', 'laranja'];
 let y = cor.includes('azul')
 console.log(y); //false 
 
+//terceiro metodo: sort
+//sort: converte os elementos em strings e os ordena.
+let salada = ['tomate', 'alface', 'pepino'];
+salada.sort(); 
+console.log(salada); //ficou: alface,pepino,tomate
+
+//segundo exemplo: sort
+let escola = ['caderno', 'mochila', 'estojo'];
+escola.sort();
+console.log(escola); //ordenou para: caderno,estojo,mochila
+
