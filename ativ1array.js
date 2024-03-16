@@ -13,3 +13,9 @@ console.log(acessorios);
 let timeFutebol = ['palmeiras', 'ponte preta', 'real madrid', 'corinthians'];
 timeFutebol.pop();
 console.log(timeFutebol);
+
+//primeiro metodo não utilizando push/pop
+//metodos fill(): preenche um array com um valor estático
+let frutas = ['morango', 'uva', 'banana'];
+frutas.fill('goiaba');
+console.log(frutas);
