@@ -110,3 +110,14 @@ let redes = ['instagram', 'whatsapp', 'facebook'];
 redes.reverse();
 console.log(redes);
 
+//nono metodo: every
+//every: detecta todos os elementos do array
+let escola = ['biologia','filosofia', 'historia'];
+let materiaEscola = escola.every ((elemento, indice )=>{return elemento.materias});
+console.log(materiaEscola);
+
+//segundo exemplo: every
+let trabalho = ['jornalista', 'médico','professor'];
+let profissoes = trabalho.every ((elemento, indice)=> {return elemento.profissoes});
+console.log(profissoes);
+
