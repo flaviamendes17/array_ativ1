@@ -121,3 +121,14 @@ let trabalho = ['jornalista', 'médico','professor'];
 let profissoes = trabalho.every ((elemento, indice)=> {return elemento.profissoes});
 console.log(profissoes);
 
+//decimo e último metodo: reverse
+//reverse: inverte as posições dos elementos
+let cinema = ['projetor', 'filme', 'pipoca', 'poltrona'];
+cinema.reverse();
+console.log(cinema);
+
+//segundo exemplo: reverse
+let restaurante = ['comida', 'cliente', 'bebida'];
+restaurante.reverse();
+console.log(restaurante);
+
